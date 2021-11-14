@@ -1,0 +1,17 @@
+#demo {
+    margin-bottom: 50px;
+}
+
+.carousel-caption {
+    background-color: rgba(121, 117, 106, 0);
+    height: 100%;
+    left: 10%;
+    top: 50%;
+    padding: 30px 45px;
+    text-align: middle;
+    width: 340px;
+}
+
+.carousel-caption h2 {
+    font-weight: bold;
+}
