@@ -12,6 +12,20 @@
     width: 340px;
 }
 
-.carousel-caption h2 {
+#first h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#first a {
+    font-weight: bold;
+}
+
+#fourth h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#fourth a {
     font-weight: bold;
 }
