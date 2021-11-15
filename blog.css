@@ -1,0 +1,16 @@
+.container {
+    position: fixed;
+    text-align: center;
+}
+
+.welcom {
+    position: absolute;
+    font-size: 7rem;
+    letter-spacing: 0.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'oswaldregular';
+    text-align: center;
+    top: 50%;
+    left: 50%
+}

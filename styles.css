@@ -1,12 +1,40 @@
 #demo {
     margin-bottom: 50px;
 }
+/*
+header.site-header {
+    background-color: black;
+    background-size: cover;
+    height: 620px;
+    background-repeat: no-repeat;
+}
 
-.carousel-caption {
-    background-color: rgba(121, 117, 106, 0);
+#welcom.caption {
+    width: 86%;
+    margin-left: 9%;
+    margin-top: 270px;
+    font-size: 7rem;
+    letter-spacing: 0.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'oswaldregular';
+    text-align: center;
+    bottom: 50%;
+}
+
+#welcom div {
+    transform: rotate(-5.5deg);
+    letter-spacing: 0;
+    color: #d2984e;
+    font-family: 'Parisienne', cursive;
+    text-transform: lowercase !important;
+}
+*/
+#first {
+    background-color: rgba(22, 22, 21, 0.5);
     height: 100%;
     left: 10%;
-    top: 50%;
+    top: 40%;
     padding: 30px 45px;
     text-align: middle;
     width: 340px;
@@ -19,6 +47,54 @@
 
 #first a {
     font-weight: bold;
+}
+
+#second {
+    height: 100%;
+    background-color: rgba(22, 22, 21, 0.5);
+    text-align: middle;
+    left: 50%;
+    top: 40%;
+    padding: 30px 45px;
+    width: fit-content;
+}
+
+#second h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#second a {
+    font-weight: bold;
+}
+
+#third {
+    height: 100%;
+    background-color: rgba(22, 22, 21, 0.5);
+    text-align: middle;
+    left: 35%;
+    top: 50%;
+    padding: 30px 45px;
+    width: fit-content;
+}
+
+#third h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#third a {
+    font-weight: bold;
+}
+
+#fourth {
+    background-color: rgba(22, 22, 21, 0.5);
+    height: 100%;
+    left: 10%;
+    top: 20%;
+    padding: 30px 45px;
+    text-align: middle;
+    width: 340px;
 }
 
 #fourth h1 {
