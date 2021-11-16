@@ -8,50 +8,106 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
-    <head>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
-        </style>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <link href="blog.css" rel="stylesheet">
-        <title>My Webpage</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="https://twitter.com/LoLO_o43">
-                    <img src="Pictures/photo_2021-11-08_22-13-20.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-            </nav>
 
-            <div class="container-fluid p-5 bg-primary text-white text-center">
-                <h1 class="welcom">
-                    WELCOME
-                    <div class="wlecom-lower">to my blog</div>
-                </h1>
-                
-                
-            </div>
-        </header>
-    </body>
+<head>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="blog.css" rel="stylesheet">
+  <title>Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+  <header>
+    <div class="centrado" id="onload">
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <nav id="nav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://twitter.com/LoLO_o43">
+          <img src="Pictures/photo_2021-11-08_22-13-20.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="team contenedor" id="equipo">
+      <h3>Nuestro equipo</h3>
+      <p class="after">Conoce a la gente asombrosa y creativa</p>
+      <div class="card">
+        <div class="content-card">
+          <div class="people">
+            <img src="img/people1.jpg" alt="">
+          </div>
+          <div class="texto-team">
+            <h4>K</h4>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="content-card">
+          <div class="people">
+            <img src="img/people2.jpg" alt="">
+          </div>
+          <div class="texto-team">
+            <h4>C</h4>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="content-card">
+          <div class="people">
+            <img src="img/people3.jpg" alt="">
+          </div>
+          <div class="texto-team">
+            <h4>M</h4>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contacto" class="container-fluid">
+    <div class="iconos">
+      <a href="https://www.youtube.com/">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.facebook.com/">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://github.com/San-43">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <p>Thanks <a href="https://en.wikipedia.org/wiki/Ada_Lovelace"><strong>Ada Lovelace</strong></a>!</p>
+    </div>
+  </footer>
+</body>
 
 </html>
