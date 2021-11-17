@@ -22,17 +22,6 @@ function menus() {
     }
 }
 
-function opening(){
-    if(closed){
-        menu.style.width = '30vw';
-        closed = false;
-    }else{
-        menu.style.width = '0%';
-        menu.style.overflow = 'hidden';
-        closed = true;
-    }
-}
-
 window.addEventListener('scroll', function () {
     console.log(window.pageYOffset);
     menus();
@@ -44,10 +33,10 @@ window.addEventListener('load', function () {
     menus();
 });
 
-window.addEventListener('click', function(e) {
-    if(closed == false) {
+window.addEventListener('click', function (e) {
+    if (closed == false) {
         let span = document.querySelector('span');
-        if(e.target !== span && e.target !== icon) {
+        if (e.target !== span && e.target !== icon) {
             menu.style.width = '0%';
             menu.style.overflow = 'hidden';
             closed = true;
@@ -56,14 +45,14 @@ window.addEventListener('click', function(e) {
 
 })
 
-window.addEventListener('resize', function() {
-    if(screen.width >=700) {
+window.addEventListener('resize', function () {
+    if (screen.width >= 700) {
         closed = true;
         menu.style.removeProperty('overflow');
         menu.style.removeProperty('width');
     }
 });
 
-icon.addEventListener('click', function(){
+icon.addEventListener('click', function () {
     opening();
 })
