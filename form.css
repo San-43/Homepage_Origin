@@ -97,11 +97,6 @@ form {
     box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
 }
 
-.form {
-    width: 100%;
-    margin: auto;
-}
-
 form .group {
     position: relative;
     margin: 45px;
