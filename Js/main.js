@@ -22,6 +22,17 @@ function menus() {
     }
 }
 
+function opening() {
+    if (closed) {
+        menu.style.width = '70vw';
+        closed = false;
+    } else {
+        menu.style.width = '0%';
+        menu.style.overflow = 'hidden';
+        closed = true;
+    }
+}
+
 window.addEventListener('scroll', function () {
     console.log(window.pageYOffset);
     menus();
