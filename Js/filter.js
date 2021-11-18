@@ -17,7 +17,7 @@ $(function () {
 
     window.addEventListener('resize', function () {
         let team = $('#team').offset().top,
-            service = $('#service').offset().top,
+            service = $('#services').offset().top,
             work = $('#work').offset().top,
             contact = $('#contact').offset().top;
     });
