@@ -411,6 +411,14 @@ footer p {
         width: 85%;
     }
 
+    .texts>h1 {
+        font-size: 50px;
+    }
+
+    .texts>h2 {
+        font-size: 15px;
+    }
+
     .icons {
         margin: auto;
     }
