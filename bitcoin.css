@@ -9,19 +9,46 @@
     --espacios-contenido: 45px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
+
 body {
-    font-family: 'open sans';
-    background: var(--fondo);
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #646464;
+    background-color: #fff;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 img {
-    vertical-align: top;
+    border: 0;
+}
+
+div {
+    display: block;
 }
 
 /* Preloader */
@@ -166,10 +193,97 @@ nav .links a:hover {
     font-weight: 300;
 }
 
+/* Main */
+
+.main {
+    position: relative;
+    text-align: justify;
+    background-color: #fff;
+    min-height: 400px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.two-column-layout {
+    padding: 70px 0;
+}
+
+.two-column-row {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.two-column-row:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.two-column-row:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.column-text {
+    max-width: 49%;
+    text-align: left;
+}
+
+.column-text-s {
+    max-width: 470px;
+}
+
+.two-column-row:nth-child(odd) .column-text {
+    margin-left: 30px;
+}
+
+.two-column-row:nth-child(even) .column-text {
+    margin-right: 30px;
+}
+
+.column-text h2 {
+    margin: 0 0 50px;
+}
+
+.column-text p {
+    font-size: 137.5%;
+    color: #13161F;
+    line-height: 36px;
+}
+
+.anchorAf {
+    position: relative;
+}
+
+.section-title {
+    font-size: 162.5%;
+    font-weight: normal;
+    color: #FF7E00;
+}
+
+
+
 /* Footer */
 
 footer {
     background: url(img/teclado.jpg);
+}
+
+footer p {
+    text-align: center;
 }
 
 footer a {

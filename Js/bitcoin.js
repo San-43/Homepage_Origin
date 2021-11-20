@@ -22,6 +22,11 @@ function menus() {
     }
 }
 
+window.addEventListener('scroll', function () {
+    console.log(window.pageYOffset);
+    menus();
+});
+
 window.addEventListener('load', function () {
     $('#onload').fadeOut();
     $('body').removeClass('hidden');
