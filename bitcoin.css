@@ -11,8 +11,6 @@
 
 html {
     font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
 }
 
 
@@ -112,9 +110,9 @@ header {
     width: 100%;
     height: 600px;
     background: linear-gradient(to bottom,
-            rgba(211, 135, 20, .6),
-            rgba(29, 241, 171, .6),
-            rgba(7, 109, 150, .45)), url(img/pexels-andrea-davis-3653849.jpg);
+            rgba(61, 57, 51, 0.6),
+            rgba(23, 163, 116, 0.6),
+            rgba(7, 109, 150, .45)), url(img/Bitcoin2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -192,89 +190,6 @@ nav .links a:hover {
     font-size: 30px;
     font-weight: 300;
 }
-
-/* Main */
-
-.main {
-    position: relative;
-    text-align: justify;
-    background-color: #fff;
-    min-height: 400px;
-}
-
-.container {
-    max-width: 1230px;
-    padding: 0 30px;
-    margin: 0 auto;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.two-column-layout {
-    padding: 70px 0;
-}
-
-.two-column-row {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.two-column-row:not(:last-child) {
-    margin-bottom: 100px;
-}
-
-.two-column-row:nth-child(even) {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-}
-
-.column-text {
-    max-width: 49%;
-    text-align: left;
-}
-
-.column-text-s {
-    max-width: 470px;
-}
-
-.two-column-row:nth-child(odd) .column-text {
-    margin-left: 30px;
-}
-
-.two-column-row:nth-child(even) .column-text {
-    margin-right: 30px;
-}
-
-.column-text h2 {
-    margin: 0 0 50px;
-}
-
-.column-text p {
-    font-size: 137.5%;
-    color: #13161F;
-    line-height: 36px;
-}
-
-.anchorAf {
-    position: relative;
-}
-
-.section-title {
-    font-size: 162.5%;
-    font-weight: normal;
-    color: #FF7E00;
-}
-
-
 
 /* Footer */
 
