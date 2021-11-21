@@ -52,126 +52,108 @@
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="two-column-layout">
-
-                <div class="row two-column-row">
-                    <div>
-                        <img class="column-img" src="img/new-user.svg" alt="icon">
-                    </div>
-                    <div class="column-text">
-                        <h2 class="section-title" id="basics">The basics for a new user</h2>
-                        <p>As a new user, you can <a href="https://bitcoin.org/en/getting-started">get started</a> with Bitcoin without
-                            understanding the technical details. Once you've installed a Bitcoin wallet on your computer
-                            or
-                            mobile phone, it will generate your first Bitcoin address and you can create more whenever
-                            you
-                            need one. You can disclose your addresses to your friends so that they can pay you or vice
-                            versa. In fact, this is pretty similar to how email works, except that Bitcoin addresses
-                            should
-                            be used only once.</p>
-                    </div>
+        <section class="container">
+            <div class="clearfix">
+                <div>
+                    <img class="col-md-6 float-md-start mb-3 ms-md-3" src="img/new-user.svg" alt="icon">
+                </div>
+                <h2 class="section-title" id="basics">The basics for a new user</h2>
+                <p>As a new user, you can <a href="https://bitcoin.org/en/getting-started">get started</a> with
+                    Bitcoin without
+                    understanding the technical details. Once you've installed a Bitcoin wallet on your computer
+                    or
+                    mobile phone, it will generate your first Bitcoin address and you can create more whenever
+                    you
+                    need one. You can disclose your addresses to your friends so that they can pay you or vice
+                    versa. In fact, this is pretty similar to how email works, except that Bitcoin addresses
+                    should
+                    be used only once.</p>
+            </div>
+        </section>
+        <section class="container">
+            <div class="clearfix">
+                <div>
+                    <img class="col-md-6 float-md-end mb-3 ms-md-3" src="img/blockchain.svg" alt="icon">
                 </div>
 
-                <div class="row two-column-row">
-                    <div>
-                        <img class="column-img" src="img/blockchain.svg" alt="icon">
-                    </div>
-                    <div class="column-text">
-                        <h2 class="section-title" id="balances">Balances<span class="titlelight"> - block chain</span>
-                        </h2>
-                        <p>The block chain is a <b>shared public ledger</b> on which the entire Bitcoin network relies.
-                            All
-                            confirmed transactions are included in the block chain. It allows Bitcoin wallets to
-                            calculate
-                            their spendable balance so that new transactions can be verified thereby ensuring they're
-                            actually owned by the spender. The integrity and the chronological order of the block chain
-                            are
-                            enforced with <a href="https://bitcoin.org/en/vocabulary#cryptography">cryptography</a>.</p>
-                    </div>
-                </div>
-
-                <div class="row two-column-row">
-                    <div>
-                        <img class="column-img" src="img/private-keys.svg" alt="icon">
-                    </div>
-                    <div class="column-text">
-                        <h2 class="section-title" id="transactions">Transactions<span class="titlelight"> - private
-                                keys</span></h2>
-                        <p>A transaction is <b>a transfer of value between Bitcoin wallets</b> that gets included in the
-                            block chain. Bitcoin wallets keep a secret piece of data called a <a
-                                href="https://bitcoin.org/en/vocabulary#private-key"><i>private key</i></a> or seed, which is used to sign
-                            transactions, providing a mathematical proof that they have come from the owner of the
-                            wallet.
-                            The <a href="https://bitcoin.org/en/vocabulary#signature"><i>signature</i></a> also prevents the transaction
-                            from
-                            being altered by anybody once it has been issued. All transactions are broadcast to the
-                            network
-                            and usually begin to be confirmed within 10-20 minutes, through a process called <a
-                                href="https://bitcoin.org/en/vocabulary#mining"><i>mining</i></a>.</p>
-                    </div>
-                </div>
-
-                <div class="row two-column-row">
-                    <div>
-                        <img class="column-img" src="img/mining.svg" alt="icon">
-                    </div>
-                    <div class="column-text">
-                        <h2 class="section-title" id="processing">Processing<span class="titlelight"> - mining</span>
-                        </h2>
-                        <p>Mining is a <b>distributed consensus system</b> that is used to <a
-                                href="https://bitcoin.org/en/vocabulary#confirmation"><i>confirm</i></a> pending transactions by including
-                            them
-                            in the block chain. It enforces a chronological order in the block chain, protects the
-                            neutrality of the network, and allows different computers to agree on the state of the
-                            system.
-                            To be confirmed, transactions must be packed in a <a
-                                href="https://bitcoin.org/en/vocabulary#block"><i>block</i></a> that fits very strict cryptographic rules
-                            that
-                            will be verified by the network. These rules prevent previous blocks from being modified
-                            because
-                            doing so would invalidate all the subsequent blocks. Mining also creates the equivalent of a
-                            competitive lottery that prevents any individual from easily adding new blocks consecutively
-                            to
-                            the block chain. In this way, no group or individuals can control what is included in the
-                            block
-                            chain or replace parts of the block chain to roll back their own spends.</p>
-                    </div>
-                </div>
-
-                <div class="row two-column-row">
-                    <div>
-                        <img class="column-img" src="img/paper.svg" alt="icon">
-                    </div>
-                    <div class="column-text">
-                        <h2 class="section-title" id="readmore">Going down the rabbit hole</h2>
-                        <p>This is just a short summary of Bitcoin. If you want to learn more of the details, you can <a
-                                href="https://bitcoin.org/en/bitcoin-paper">read the original paper</a> that describes its design, the <a
-                                href="https://developer.bitcoin.org/">developer documentation</a>, or explore the <a
-                                href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>.</p>
-                    </div>
-                </div>
-
+                <h2 class="section-title" id="balances">Balances<span class="titlelight"> - block chain</span>
+                </h2>
+                <p>The block chain is a <b>shared public ledger</b> on which the entire Bitcoin network relies.
+                    All
+                    confirmed transactions are included in the block chain. It allows Bitcoin wallets to
+                    calculate
+                    their spendable balance so that new transactions can be verified thereby ensuring they're
+                    actually owned by the spender. The integrity and the chronological order of the block chain
+                    are
+                    enforced with <a href="https://bitcoin.org/en/vocabulary#cryptography">cryptography</a>.</p>
             </div>
 
-            <!-- <div class="link-bar">
-              <h3 class="link-bar-title" id="readmore_2">Going down the rabbit hole</h3>
-              <p class="link-bar-description"></p>
-              <div class="row link-bar-row">
-                <div class="link-bar-item">
-                  <a href="" class="link-bar-link"></a>
-                  <p class="link-bar-text"></p>
+        </section>
+        <section class="container">
+            <div class="clearfix">
+                <div>
+                    <img class="col-md-6 float-md-start mb-3 ms-md-3" src="img/private-keys.svg" alt="icon">
                 </div>
-                <div class="link-bar-item">
-                  <a href="" class="link-bar-link"></a>
+
+                <h2 class="section-title" id="transactions">Transactions<span class="titlelight"> - private
+                        keys</span></h2>
+                <p>A transaction is <b>a transfer of value between Bitcoin wallets</b> that gets included in the
+                    block chain. Bitcoin wallets keep a secret piece of data called a <a
+                        href="https://bitcoin.org/en/vocabulary#private-key"><i>private key</i></a> or seed, which
+                    is used to sign
+                    transactions, providing a mathematical proof that they have come from the owner of the
+                    wallet.
+                    The <a href="https://bitcoin.org/en/vocabulary#signature"><i>signature</i></a> also prevents the
+                    transaction
+                    from
+                    being altered by anybody once it has been issued. All transactions are broadcast to the
+                    network
+                    and usually begin to be confirmed within 10-20 minutes, through a process called <a
+                        href="https://bitcoin.org/en/vocabulary#mining"><i>mining</i></a>.</p>
+            </div>
+        </section>
+        <section class="container">
+            <div class="clearfix">
+                <div>
+                    <img class="col-md-6 float-md-end mb-3 ms-md-3" src="img/mining.svg" alt="icon">
                 </div>
-                <div class="link-bar-item">
-                  <a href="" class="link-bar-link"></a>
+
+                <h2 class="section-title" id="processing">Processing<span class="titlelight"> - mining</span>
+                </h2>
+                <p>Mining is a <b>distributed consensus system</b> that is used to <a
+                        href="https://bitcoin.org/en/vocabulary#confirmation"><i>confirm</i></a> pending
+                    transactions by including
+                    them
+                    in the block chain. It enforces a chronological order in the block chain, protects the
+                    neutrality of the network, and allows different computers to agree on the state of the
+                    system.
+                    To be confirmed, transactions must be packed in a <a
+                        href="https://bitcoin.org/en/vocabulary#block"><i>block</i></a> that fits very strict
+                    cryptographic rules
+                    that
+                    will be verified by the network. These rules prevent previous blocks from being modified
+                    because
+                    doing so would invalidate all the subsequent blocks. Mining also creates the equivalent of a
+                    competitive lottery that prevents any individual from easily adding new blocks consecutively
+                    to
+                    the block chain. In this way, no group or individuals can control what is included in the
+                    block
+                    chain or replace parts of the block chain to roll back their own spends.</p>
+            </div>
+        </section>
+        <section class="container">
+            <div class="clearfix">
+                <div>
+                    <img class="col-md-6 float-md-start mb-3 ms-md-3" src="img/paper.svg" alt="icon">
                 </div>
-              </div>
-            </div> -->
-        </div>
-        </div>
+
+                <h2 class="section-title" id="readmore">Going down the rabbit hole</h2>
+                <p>This is just a short summary of Bitcoin. If you want to learn more of the details, you can <a
+                        href="https://bitcoin.org/en/bitcoin-paper">read the original paper</a> that describes its
+                    design, the <a href="https://developer.bitcoin.org/">developer documentation</a>, or explore the
+                    <a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>.</p>
+            </div>
+        </section>
     </main>
     <footer id="contact">
         <div class="footer container">

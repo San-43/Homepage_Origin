@@ -23,30 +23,10 @@ body {
     background-color: #fff;
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
 h2 {
     display: block;
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
-}
-
-img {
-    border: 0;
-}
-
-div {
-    display: block;
 }
 
 /* Preloader */
@@ -190,6 +170,33 @@ nav .links a:hover {
     font-size: 30px;
     font-weight: 300;
 }
+
+/* Main */ 
+
+.container {
+    margin: auto;
+    padding: var(--margenes) 0;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.clearfix p {
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.section-title {
+    display: block;
+    color: var(--color1);
+    padding: 5px;
+    font-weight: bold;
+}
+
+
 
 /* Footer */
 
