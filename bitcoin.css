@@ -206,6 +206,8 @@ footer {
 
 footer p {
     text-align: center;
+    color: var(--color1);
+    margin-top: var(--espacios);
 }
 
 footer a {
@@ -224,8 +226,4 @@ footer a {
     color: #FFF;
     margin-bottom: var(--espacios);
     display: inline-block;
-}
-
-footer p {
-    margin-top: var(--espacios);
 }

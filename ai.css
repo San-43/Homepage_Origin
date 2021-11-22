@@ -92,7 +92,7 @@ header {
     background: linear-gradient(to bottom,
             rgba(61, 57, 51, 0.6),
             rgba(23, 163, 116, 0.6),
-            rgba(7, 109, 150, .45)), url(img/Bitcoin2.jpg);
+            rgba(7, 109, 150, .45)), url(Pictures/IMG_5733.JPG);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -179,6 +179,8 @@ footer {
 
 footer p {
     text-align: center;
+    color: var(--color1);
+    margin-top: var(--espacios);
 }
 
 footer a {
@@ -197,8 +199,4 @@ footer a {
     color: #FFF;
     margin-bottom: var(--espacios);
     display: inline-block;
-}
-
-footer p {
-    margin-top: var(--espacios);
 }
