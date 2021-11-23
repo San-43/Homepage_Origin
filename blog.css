@@ -296,6 +296,11 @@ nav .links a:hover {
     margin-bottom: var(--espacios-contenido);
 }
 
+.cont-work>a {
+    color: black;
+    font-size: bold;
+}
+
 .img-work {
     height: 90%;
     width: 100%;
