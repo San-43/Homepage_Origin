@@ -277,6 +277,7 @@ figcaption {
 
 footer {
     background: url(img/teclado.jpg);
+    padding-top: 50px;
     overflow: hidden;
 }
 
