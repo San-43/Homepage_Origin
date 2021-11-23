@@ -252,6 +252,10 @@ nav .links a:hover {
     margin-bottom: 15px;
 }
 
+li {
+    padding-bottom: 5px;
+}
+
 figure {
     font-size: x-small;
     max-width: 900px;
@@ -320,6 +324,20 @@ footer a {
     }
 
     .vid {
+        width: 95%;
+    }
+
+    .container>p {
+        font-weight: 500;
+        width: 95%;
+    }
+
+    .container>ol {
+        font-weight: 500;
+        width: 95%;
+    }
+
+    .container>ul {
         width: 95%;
     }
 }
